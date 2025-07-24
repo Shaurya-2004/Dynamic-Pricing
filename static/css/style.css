@@ -1,0 +1,44 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.navbar {
+    background: #007ACC;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: #005F99;
+    border-radius: 4px;
+}
+
+.navbar .right {
+    float: right;
+}
+
+.stButton>button {
+    background: #007ACC;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.stButton>button:hover {
+    background: #005F99;
+}
